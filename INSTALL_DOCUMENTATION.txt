@@ -1,6 +1,7 @@
 //internet is required in order for the links to work
 
 clone repo | extract source code
+//MAKE SURE TO CHANGE DIRECTORY TO 'plantita_group2' BEFORE RUNNING ANY TERMINAL COMMANDS
 terminal: composer install
 make db 'plantita_laravel'
 terminal: php artisan storage:link
