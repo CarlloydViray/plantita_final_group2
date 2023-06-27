@@ -1,0 +1,9 @@
+//internet is required in order for the links to work
+
+clone repo | extract source code
+terminal: composer install
+make db 'plantita_laravel'
+terminal: php artisan storage:link
+terminal: mv .env.example .env
+terminal: php artisan key:generate
+
