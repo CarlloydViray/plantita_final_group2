@@ -9,5 +9,5 @@ make db 'plantita_laravel'
 terminal: php artisan storage:link
 terminal: mv .env.example .env
 terminal: php artisan key:generate
-terminal: php artisan migrate
+terminal: php artisan migrate OR php artisan migrate:fresh
 terminal: php artisan serve
